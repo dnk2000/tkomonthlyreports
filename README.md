@@ -20,5 +20,5 @@
 6. Check the excel file for SMS consumption issues
 
 # Notes:
-There is also simple script that just check Total SMS and Total per countries in our .xlsx reports (check-our-reports.py)
-All logs are added to process_log.txt
+- There is also simple script that just check Total SMS and Total per countries in our .xlsx reports (check-our-reports.py)
+- All logs are added to process_log.txt
