@@ -1,7 +1,7 @@
 # Installation:
 1. Install python
 2. Run pip install pandas openpyxl
-3. Get communities.json file from author
+3. Get ```communities.json``` file from author
 
 # How to run:
 1. Download all our .xlsx reports to /files folder
