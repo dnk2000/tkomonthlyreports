@@ -18,7 +18,7 @@ def load_keyid_to_community(filename):
 keyid_to_community = load_keyid_to_community('communities.json')
 
 # Define the directory for storing all files
-output_dir = "ispro_reports"
+output_dir = "tmp"
 os.makedirs(output_dir, exist_ok=True)
 
 # Common parameters for all requests
@@ -91,7 +91,7 @@ for community_name, keyid in keyid_to_community.items():
         print(f"Failed to download the ZIP file for keyid '{keyid}'. Status code: {response.status_code}")
 
 # Call the CSV processing script
-subprocess.run(["python", "process_csv.py"], check=True)
+subprocess.run(["python3", "process_csv.py"], check=True)
 
 # Remove all files at the end of the script
 for file_path in files_to_remove:

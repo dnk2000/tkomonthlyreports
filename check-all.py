@@ -161,11 +161,11 @@ def process_all_files_in_folder(folder_path: str, search_text1: str, search_text
     compare_with_community_sums(community_sums_df, results, community_sums_path)
 
 if __name__ == "__main__":
-    log_file = '/Users/denysiliasov/Documents/Work/monthly/process_log.txt'
+    log_file = 'process_log.txt'
     setup_logging(log_file)
     
-    folder_path = '/Users/denysiliasov/Documents/Work/monthly/files/'
-    community_sums_path = '/Users/denysiliasov/Documents/Work/monthly/result.xlsx'
+    folder_path = 'files/'
+    community_sums_path = 'result.xlsx'
     search_text1 = "SMS consumption\n(total)"
     search_text2 = "SMS consumption (distributed by Countries)"
     

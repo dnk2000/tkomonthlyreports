@@ -68,7 +68,7 @@ def remove_files(file_paths):
             print(f"Error removing file '{file_path}': {e}")
 
 # Define the directory for storing all files
-output_dir = "ispro_reports"
+output_dir = "tmp"
 excel_file = 'result.xlsx'
 
 # List to store the file paths

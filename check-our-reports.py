@@ -109,10 +109,10 @@ def process_all_files_in_folder(folder_path: str, search_text1: str, search_text
             process_file(file_path, search_text1, search_text2)
 
 if __name__ == "__main__":
-    log_file = '/Users/denysiliasov/Documents/Work/monthly/process_log.txt'
+    log_file = 'process_log.txt'
     setup_logging(log_file)
     
-    folder_path = '/Users/denysiliasov/Documents/Work/monthly/files/'
+    folder_path = 'files/'
     search_text1 = "SMS consumption\n(total)"
     search_text2 = "SMS consumption (distributed by Countries)"
     process_all_files_in_folder(folder_path, search_text1, search_text2)
