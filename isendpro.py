@@ -24,8 +24,9 @@ os.makedirs(output_dir, exist_ok=True)
 # Common parameters for all requests
 base_url = "https://apirest.isendpro.com/cgi-bin/"
 rapportCampagne = "2"
-date_deb = "2024-09-01 00:00"
-date_fin = "2024-09-30 23:59"
+# Start and End date of report (format YYYY-MM-DD HH:MM)
+date_deb = "2024-11-01 00:00"
+date_fin = "2024-11-30 23:59"
 
 # List to keep track of all files that need to be removed later
 files_to_remove = []
