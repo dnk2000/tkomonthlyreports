@@ -109,7 +109,7 @@ def compare_all_communities(folder_path: str, search_text1: str, search_text2: s
     results = {}
     logging.info("\nComparing SMS consumption (TOTAL vs SUM per countries) in our reports\n")
     for file_name in os.listdir(folder_path):
-        if file_name.endswith('.xlsx') and not file_name.startswith('~$'):
+        if file_name.endswith('-timeko-peragency-statreport.xlsx') and not file_name.startswith('~$'):
             file_path = os.path.join(folder_path, file_name)
             community_name, cell_value1, formula_result_int = process_file(file_path, search_text1, search_text2)
             results[community_name] = (cell_value1, formula_result_int)

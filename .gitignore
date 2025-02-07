@@ -3,3 +3,5 @@ tmp/
 communities.json
 process_log.txt
 result.xlsx
+.DS_Store
+~$result.xlsx
